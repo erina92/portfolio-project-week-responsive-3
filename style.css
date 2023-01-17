@@ -104,7 +104,7 @@ p {
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .yoga-link,
