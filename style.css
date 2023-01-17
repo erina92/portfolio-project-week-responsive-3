@@ -4,9 +4,20 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@font-face {
+  font-family: "Filmotype Lucky";
+  src: url("fonts/filmotypelucky-webfont.eot");
+  src: url("fonts/filmotypelucky-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/filmotypelucky-webfont.woff2") format("woff2"),
+    url("fonts/filmotypelucky-webfont.woff") format("woff"),
+    url("fonts/filmotypelucky-webfont.ttf") format("truetype"),
+    url("fonts/filmotypelucky-webfont.svg#Filmotype Lucky") format("svg");
+}
+
 body {
   margin-bottom: 80px;
-  font-family: monospace;
+  font-family: "Filmotype Lucky";
 }
 
 .container {
