@@ -51,6 +51,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .navigation-links {
@@ -113,4 +114,5 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
   padding: 20px;
+  text-decoration: none;
 }
