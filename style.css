@@ -20,6 +20,10 @@ body {
   font-family: "Filmotype Lucky";
 }
 
+.introduction {
+  background: #f9f7fe;
+}
+
 .container {
   max-width: 1250px;
   margin: 0 auto;
