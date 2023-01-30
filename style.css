@@ -63,13 +63,13 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin: 0 auto;
   justify-content: center;
 }
 
 .navigation-links a {
   margin: 20px;
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
@@ -134,10 +134,18 @@ p {
     margin: 18px;
   }
 
-  .greeting {
-    padding: 10px;
+  .introduction h1 {
+    margin: 0 auto;
+  }
+
+  .introduction h3 {
+    margin: 0 auto;
+  }
+
+  .greeting h2 {
+    margin: 0 auto;
   }
   .navigation-links {
-    margin: 25px;
+    margin: 0 auto;
   }
 }
