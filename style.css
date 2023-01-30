@@ -23,8 +23,12 @@ body {
 .introduction {
   background: #f9f7fe;
   border-radius: 100px;
-  margin-left: 500px;
-  margin-right: 500px;
+}
+
+.about-me {
+  background: #f9f7fe;
+  border-radius: 100px;
+  padding: 18px;
 }
 
 .container {
@@ -102,6 +106,12 @@ p {
   margin: 10px;
 }
 
+#contact {
+  background: #f9f7fe;
+  border-radius: 100px;
+  padding: 18px;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -148,12 +158,18 @@ p {
   .navigation-links {
     margin: 0 auto;
   }
-}
 
-.about-me {
-  background: #f9f7fe;
-  border-radius: 100px;
-  margin-left: 500px;
-  margin-right: 500px;
-  padding: 20px;
+  .about-me {
+    background: #f9f7fe;
+    border-radius: 100px;
+    padding: 18px;
+    margin: 18px;
+  }
+
+  #contact {
+    background: #f9f7fe;
+    border-radius: 100px;
+    margin: 18px;
+    padding: 18px;
+  }
 }
